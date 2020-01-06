@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".DashboardActivity">
+
+
+    <ImageView
+        android:id="@+id/twLogo"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_twitter_blue" />
+
+
+    <TextView
+        android:id="@+id/tvIntro"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="50px"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:text="See what's happenings
+        in the world right now."/>
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Create account"
+        android:layout_marginTop="30dp"
+        android:layout_margin="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30px"
+        android:textAllCaps="false"
+        android:background="@drawable/button_round"/>
+
+
+
+    <RelativeLayout
+        android:id="@+id/rellay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:textColor="@color/gray"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20px"
+            android:text="Have an account already?"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/white"
+            android:text="Log in"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20px"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="160dp"
+            android:textAllCaps="false"
+            android:textColor="@color/blue" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

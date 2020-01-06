@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/twLogo"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_twitter_blue" />
+
+    <TextView
+        android:id="@+id/tvIntro"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="sans-serif"
+        android:text="Create your account."
+        android:textColor="@color/black"
+        android:textSize="40px"
+        android:textStyle="bold" />
+
+
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="50dp"
+            android:hint="Name"
+            android:textColor="@color/gray"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20px"/>
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:hint="Phone number or email address"
+            android:textColor="@color/gray"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20px"/>
+
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="44dp"-->
+<!--        android:text="...................................."-->
+<!--        android:textColor="@color/gray"/>-->
+
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="98dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/button_round"
+        android:fontFamily="sans-serif-black"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20px" />
+
+
+</LinearLayout>
